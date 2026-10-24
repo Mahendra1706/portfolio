@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
   subheadline:
     "I'm an AI & ML engineer specializing in low-level systems — from writing custom CUDA kernels and LLM inference engines in C++ to re-implementing quantization formats in C and training Mixture-of-Experts architectures. I build below the abstraction layer to measure and optimize real hardware performance.",
   availabilityLabel: 'Available for AI/ML Systems & Research Engineering Roles',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 
   quickStats: [
     {
